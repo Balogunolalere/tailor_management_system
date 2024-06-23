@@ -48,12 +48,6 @@ The Tailor Management System is a web application built with FastAPI to manage t
     pip install -r requirements.txt
     ```
 
-4. Set up the database:
-
-    ```bash
-    # Ensure you have a running database instance and update the DATABASE_URL in the .env file
-    alembic upgrade head
-    ```
 
 ## Configuration
 
@@ -157,8 +151,6 @@ tailor_management_system/
 │   │   ├── pdf_generator.py
 │   ├── database.py
 │   ├── main.py
-├── alembic/
-├── alembic.ini
 ├── requirements.txt
 ├── .env
 ├── README.md
